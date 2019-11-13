@@ -19,7 +19,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 Vix Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ##### Links
-1. [See our conceptual map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+1. [See our conceptual map](https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html)
 
 2. [See extended definition map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
 <br/><br/>
