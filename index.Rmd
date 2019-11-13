@@ -17,7 +17,7 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **LIDD coding**
+# **LIDD coding support**
 
 This website provides additional information related to the LIDD coding platform. You can get direct access to supporting documentation such as:
 the list of questionnaires per instrument, core working definitions and additional documentation here. 
