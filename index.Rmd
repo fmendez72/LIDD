@@ -24,7 +24,7 @@ the list of questionnaires per instrument, core working definitions and addition
 
 ## How to use
 
-1. See the [Support Documents](https://fmendez72.github.io/lidd/SupportDocuments.html) tab for further information regarding. 
+1. See the [Support Documents](https://fmendez72.github.io/lidd/SupportDocuments.html) tab for further information regarding the instruments of Direct Democracy. 
 
 2. See the [Links page](https://fmendez72.github.io/lidd/Links.html) for lots of helpful links.
 
