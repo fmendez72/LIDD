@@ -24,9 +24,9 @@ the list of questionnaires per instrument, core working definitions and addition
 
 ## How to use
 
-1. See the [Support Documents](https://fmendez72.github.io/FM_webtest/SupportDocuments.html) tab for further information regarding. 
+1. See the [Support Documents](https://fmendez72.github.io/lidd/SupportDocuments.html) tab for further information regarding. 
 
-2. See the [Links page](https://fmendez72.github.io/FM_webtest/Links.html) for lots of helpful links.
+2. See the [Links page](https://fmendez72.github.io/lidd/Links.html) for lots of helpful links.
 
 
 3. If you have further queries, you can contact the LIDD team here [to do create LIDD email account].
@@ -37,7 +37,7 @@ the list of questionnaires per instrument, core working definitions and addition
 
 ### [Popular Sovereignty vs. the Rule of Law? Defining the Limits of Direct Democracy (LIDD)](https://www.ivr.uzh.ch/en/institutsmitglieder/moeckli/Research-project-LIDD.html)
 
-<a href = "https://fmendez72.github.io/FM_webtest/">
+<a href = "https://fmendez72.github.io/lidd/">
 ![](images/lidd2.png)
 </a>
 </div>
