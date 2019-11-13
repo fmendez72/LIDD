@@ -21,7 +21,7 @@ Vix Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp
 ##### Links
 1. [See our conceptual map](https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html)
 
-2. [See extended definition map](https://fmendez72.github.io/FM_webtest/Liddpages/ConceptualMap.html)
+2. [See extended definition map](https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html)
 <br/><br/>
 
 # Law-initiated referendum
