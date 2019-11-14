@@ -19,9 +19,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 Vix Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">See our conceptual framework of direct democracy instruments</a>
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">See our conceptual framework of direct democracy instruments</a>
 
-2. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">See our list of definitions</a>
+2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">See our list of definitions</a>
 <br/><br/>
 
 # Law-initiated referendum
