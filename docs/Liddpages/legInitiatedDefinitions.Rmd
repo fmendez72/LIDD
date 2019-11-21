@@ -1,5 +1,5 @@
 ---
-title: "Law-initiated referendums"
+title: "Legislature-initiated referendums"
 output: html_document
 ---
 
@@ -21,7 +21,7 @@ library(stringr)
 
 ## List of questionnaire items and definitions/explanations
 ```{r,echo=FALSE}
-df=read.csv("~/Dropbox/testGitHub/lidd/Liddpages/lawInitiated.csv",stringsAsFactors = F)
+df=read.csv("~/Dropbox/testGitHub/lidd/Liddpages/legInitiated.csv",stringsAsFactors = F)
 
 names(df)[3]<-"Definitions and Explanations"
 df %>% 
