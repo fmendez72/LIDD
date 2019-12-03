@@ -15,76 +15,65 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 <br/><br/>
 
-# Overall conceptualisation
-Vix Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# Results of coding exercise
+Here we can see the results of the pilot project. You can view the jobs from the external coders, and compare them with the LIDD coding jobs. The data is presented in order of completion, beginning with the pilot round of codes. 
 
-##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">See our conceptual framework of direct democracy instruments</a>
 
-2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">See our list of definitions</a>
+# Slovakia
+
+### Law initiated
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/Executive_coder1.html" target="_blank">View external coders</a>
+
+2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
+
+3. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View reconcialiation</a>
 <br/><br/>
 
-# Law-initiated referendum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Executive-initiated
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
 
-##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">Download questionnaire with list of items</a>
+2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
-2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+3. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View reconcialiation</a>
 <br/><br/>
 
-# Executive-initiated referendum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Legislative-initiated
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
 
-##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">Download questionnaire with list of items</a>
+2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
-2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+3. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View reconcialiation</a>
 <br/><br/>
 
-# Legislative-initiated referendum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Subnational-initiated
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
 
-##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">Download questionnaire with list of items</a>
+2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
-2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+3. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View reconcialiation</a>
 <br/><br/>
 
-# Subnational-initiated referendum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Citizen-initiated Proactive
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
 
-##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">Download questionnaire with list of items</a>
+2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
-2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+3. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View reconcialiation</a>
 <br/><br/>
 
+### Citizen-initiated Rejective
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
 
-# Citizen-initiated Proactive referendum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
-##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">Download questionnaire with list of items</a>
-
-2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
+3. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View reconcialiation</a>
 <br/><br/>
 
+### Citizens' Agenda Initiative
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
 
-# Citizen-initiated Rejective referendum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
-##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">Download questionnaire with list of items</a>
-
-2. [View support documentation with explanations/definitions of items](https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html)
+3. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View reconcialiation</a>
 <br/><br/>
-
-# Citizens' Agenda Initiative
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-##### Links
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">Download questionnaire with list of items</a>
-
-2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View support documentation with explanations/definitions of items</a>
 
