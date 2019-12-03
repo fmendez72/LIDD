@@ -22,7 +22,7 @@ Here we can see the results of the pilot project. You can view the jobs from the
 # Slovakia
 
 ### Law initiated
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/Executive_coder1.html" target="_blank">View external coders</a>
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/Law_coder1.html" target="_blank">View external coders</a>
 
 2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
@@ -38,7 +38,7 @@ Here we can see the results of the pilot project. You can view the jobs from the
 <br/><br/>
 
 ### Legislative-initiated
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/Legislature_codr1.html" target="_blank">View external coders</a>
 
 2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
@@ -54,7 +54,7 @@ Here we can see the results of the pilot project. You can view the jobs from the
 <br/><br/>
 
 ### Citizen-initiated Proactive
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/Proactive_coder1.html" target="_blank">View external coders</a>
 
 2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
@@ -62,7 +62,7 @@ Here we can see the results of the pilot project. You can view the jobs from the
 <br/><br/>
 
 ### Citizen-initiated Rejective
-1. <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">View external coders</a>
+1. <a href="https://fmendez72.github.io/lidd/Liddpages/Rejective_coder1.html" target="_blank">View external coders</a>
 
 2. <a href="https://fmendez72.github.io/lidd/Liddpages/lawInitiatedDefinitions.html" target="_blank">View LIDD codings</a>
 
