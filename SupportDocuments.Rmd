@@ -1,5 +1,5 @@
 ---
-title: "Beta version of LIDD database. Please wait for Page to load"
+title: "Please wait for data page to load!"
 output: html_document
 ---
 
