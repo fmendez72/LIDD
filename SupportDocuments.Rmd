@@ -2,10 +2,5 @@
 title: "Additional resources"
 output: html_document
 ---
-
-```{r,echo=FALSE}
-knitr::include_app("https://fmendez.shinyapps.io/template/")
-```
-
-
+<iframe src="https://fmendez.shinyapps.io/template/" style="width: 500px; height: 130px; border: 0px"></iframe>
 
