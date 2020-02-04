@@ -1,6 +1,6 @@
 ---
-title: "Additional resources"
+title: "Beta version of LIDD database. Please wait for Page to load"
 output: html_document
 ---
-<iframe src="https://fmendez.shinyapps.io/template/" style="width: 500px; height: 130px; border: 0px"></iframe>
 
+<iframe src="https://fmendez.shinyapps.io/template/"></iframe>
