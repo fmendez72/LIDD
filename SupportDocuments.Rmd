@@ -3,4 +3,4 @@ title: "Beta version of LIDD database. Please wait for Page to load"
 output: html_document
 ---
 
-<iframe width="560" height="315" src="https://fmendez.shinyapps.io/template/" frameborder="0" allowfullscreen></iframe>
+<iframe width="1000" height="800" src="https://fmendez.shinyapps.io/template/" frameborder="0" allowfullscreen></iframe>
