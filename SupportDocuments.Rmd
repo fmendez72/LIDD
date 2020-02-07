@@ -1,5 +1,5 @@
 ---
-title: "Please wait for data page to load!"
+title: ""
 output: html_document
 ---
 
