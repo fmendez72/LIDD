@@ -4,8 +4,6 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Support documents"
-      href: SupportDocuments.html
-    - text: "Links"
-      href: Links.html
+    - text: "Data preview"
+      href: DataPreview.html
 output_dir: "docs"
