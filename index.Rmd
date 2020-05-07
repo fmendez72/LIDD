@@ -23,7 +23,7 @@ With the mushrooming of direct-democratic instruments throughout Europe and the 
 
 The project builds on a comparative legal analysis, making it possible to capitalize on the wealth of experience gained with direct democratic instruments in Switzerland and, more recently, other European states in order to develop general conclusions.
 
-This websites offers an early preview of the LIDD database. Please note this is a work in progress, once the data collection and processing is complete the database will migrate to the official LIDD website
+This websites offers an early preview of the LIDD database. Please note this is a work in progress, once the data collection and processing is complete the database will migrate to the official LIDD website.
 
 </div>
 <div class="col-sm-6">
