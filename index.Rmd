@@ -1,5 +1,5 @@
 ---
-title: "LIDD project"
+title: "The LIDD project"
 output: html_document
 ---
 
