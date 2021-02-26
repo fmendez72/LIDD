@@ -3,5 +3,5 @@ title: ""
 output: html_document
 ---
 
-<!-- <iframe width="1000" height="800" src="https://fmendez.shinyapps.io/version2/" frameborder="0" allowfullscreen></iframe> -->
-<iframe src="http://176.227.235.59:5601/s/fm_tweets/goto/bc230c12594daa65dfaa48d5ddead47e" height="900" width="1000"></iframe>
+<iframe width="1000" height="800" src="http://176.227.235.59:5601/s/fm_tweets/goto/bc230c12594daa65dfaa48d5ddead47e" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe src="http://176.227.235.59:5601/s/fm_tweets/goto/bc230c12594daa65dfaa48d5ddead47e" height="900" width="1000"></iframe> -->
