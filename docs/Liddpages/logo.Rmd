@@ -1,0 +1,10 @@
+---
+title: "Testing logo"
+output: html_document
+---
+
+<a href = "https://fmendez72.github.io/lidd/">
+![](eprcWordcloud.png)
+
+
+![](eprcWordcloud.png)
