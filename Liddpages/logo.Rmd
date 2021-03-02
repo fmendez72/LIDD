@@ -8,3 +8,5 @@ output: html_document
 
 
 ![](eprcWordcloud.png)
+
+![](iqnet.png)
