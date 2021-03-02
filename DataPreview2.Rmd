@@ -3,5 +3,4 @@ title: ""
 output: html_document
 ---
 
-
-<iframe src="http://176.227.235.59:5601/s/fm_tweets/app/canvas#/workpad/workpad-2bd7a903-7eb6-492f-aa97-ad997e671eda/page/1?__fullscreen=true" frameborder="0" width="1500" height="800"></iframe>
+<iframe width="1000" height="800" src="http://176.227.235.59:5601/s/fm_tweets/goto/61f1f420ba76e0d6312f32643f81ab2c" frameborder="0" allowfullscreen></iframe>
