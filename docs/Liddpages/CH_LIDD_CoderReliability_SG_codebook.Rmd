@@ -1,0 +1,589 @@
+---
+title: "Results of Pilot coding exercise: 5 LIDD coders"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r,warning=FALSE,message=FALSE}
+library(readr)
+library(dplyr)
+library(stringr)
+library(tidyr)
+library(ggplot2)
+library(ggpubr)
+library(tibble)
+library(irr)
+library(knitr)
+library(kableExtra)
+
+
+# A function factory for getting integer y-axis values.
+integer_breaks <- function(n = 5, ...) {
+  fxn <- function(x) {
+    breaks <- floor(pretty(x, n, ...))
+    names(breaks) <- attr(breaks, "labels")
+    breaks
+  }
+  return(fxn)
+}
+
+df <- read_csv("ch_pilot.csv")
+
+# Coder are as follows
+# Coder1=FM
+# Coder2=AF
+# Coder3=DM
+# Coder4=CR
+# Coder5=SK
+
+```
+
+
+```{r,warning=FALSE,message=FALSE}
+# Data preprocessing
+
+df=df %>% 
+  mutate(Coder=as.character(Coder))
+df=df %>% 
+  mutate(id=as.character(id))
+
+## Create Wide DF
+library(reshape2)
+dfw=df %>%
+  select(id,Coder,Code,c2d_title) %>% 
+  dcast(id~Coder, value.var = "Code") 
+
+colnames(dfw)[2:6]<-c("coder1","coder2","coder3","coder4","coder5")
+
+dfw=df %>% 
+  select(c2d_title,id) %>% 
+  distinct(id,.keep_all = TRUE) %>% 
+  left_join(dfw,.,,by="id") %>%
+  arrange(id)
+
+# Create a rowname identifier
+dfw=dfw %>% rownames_to_column()
+
+# Add rowname to df
+df=df %>% 
+  left_join(., select(dfw, id,rowname), by = "id")
+
+```
+
+## Overview
+
+This report presents the results of the LIDD pilot coding exercise for Switzerland based on the Silagadze & Gherghina (hereafter SG) policy typology.
+
+The following bullet points include some of the main parameters of the coding analysis as presented below.  
+
+- 30 referendum events were randomly selected)
+
+- 5 LIDD coders submitted their pilot coding (the coders are referred to as coders, 1 to 5)
+
+- Two measures of reliability are used. An (i) "agreement" measure and an (ii) intercoder reliability measure. 
+
+- The "agreement" measure. Agreement between a pair of coders is quite easy to understand. If coders 1 and 2 coded 100 referendums and agreed (assigned the same codes) to 60 referendums, then the level of "agreement" would be 60% (disagreement would be 40%).  
+
+- The "intercoder reliability measure." The methodological literature uses a metric called "intercoder reliability" to measure the degree of agreement between coders rating items (referendum topics in our case). This measure is a bit more sophisticated and takes into account things like the level of agreement that could be achieved by chance (random answering). It's called the Kappa intercoder reliability measure.
+
+- The Kappa score can vary from `-1 to 1`. It was suggested by the author of the Kappa measure that the score could be interpreted as follows: values less than `0` indicate no agreement; and `0.01–0.20` as none to slight; `0.21–0.40` as fair; `0.41–0.60` as moderate; `0.61–0.80` as substantial; and `0.81–1.00` as almost perfect agreement.
+
+```{r}
+# Experts cols
+lidd=c("coder1","coder2","coder3","coder4","coder5")
+
+# Identify LIDD Majority Vote
+dfw$mv1=apply(dfw[lidd],1,function(x) names(which.max(table(x))))
+
+```
+
+
+## Agreement among LIDD coders
+
+```{r}
+#### Agreement level
+ag1_2=agree(cbind(dfw$coder1,dfw$coder2))
+ag1_3=agree(cbind(dfw$coder1,dfw$coder3))
+ag2_3=agree(cbind(dfw$coder2,dfw$coder3))
+ag1_4=agree(cbind(dfw$coder1,dfw$coder4))
+ag2_4=agree(cbind(dfw$coder2,dfw$coder4))
+ag3_4=agree(cbind(dfw$coder3,dfw$coder4))
+ag1_5=agree(cbind(dfw$coder1,dfw$coder5))
+ag2_5=agree(cbind(dfw$coder2,dfw$coder5))
+ag3_5=agree(cbind(dfw$coder3,dfw$coder5))
+ag4_5=agree(cbind(dfw$coder4,dfw$coder5))
+
+ag_all=agree(dfw[,3:7])
+
+k1_2=kappa2(cbind(dfw$coder1,dfw$coder2))
+k1_3=kappa2(cbind(dfw$coder1,dfw$coder3))
+k2_3=kappa2(cbind(dfw$coder2,dfw$coder3))
+k1_4=kappa2(cbind(dfw$coder1,dfw$coder4))
+k2_4=kappa2(cbind(dfw$coder2,dfw$coder4))
+k3_4=kappa2(cbind(dfw$coder3,dfw$coder4))
+k1_5=kappa2(cbind(dfw$coder1,dfw$coder5))
+k2_5=kappa2(cbind(dfw$coder2,dfw$coder5))
+k3_5=kappa2(cbind(dfw$coder3,dfw$coder5))
+k4_5=kappa2(cbind(dfw$coder4,dfw$coder5))
+
+k_all=kappam.fleiss(dfw[, 4:8])
+
+liddCoding=tibble(
+  `LIDD coder pair`=c("c1 vs c2",
+                      "c1 vs c3",
+                      "c2 vs c3",
+                      "c1 vs c4",
+                      "c2 vs c4",
+                      "c3 vs c4",
+                      "c1 vs c5",
+                      "c2 vs c5",
+                      "c3 vs c5",
+                      "c4 vs c5",
+                      "All"),
+       `Agreement %`=c(ag1_2$value,
+                       ag1_3$value,
+                       ag2_3$value,
+                       ag1_4$value,
+                       ag2_4$value,
+                       ag3_4$value,
+                       ag1_5$value,
+                       ag2_5$value,
+                       ag3_5$value,
+                       ag4_5$value,
+                       ag_all$value),
+       `Kappa (intercoder reliability)`=round(c(k1_2$value,
+                                            k1_3$value,
+                                            k2_3$value,
+                                            k1_4$value,
+                                            k2_4$value,
+                                            k3_4$value,
+                                            k1_5$value,
+                                            k2_5$value,
+                                            k3_5$value,
+                                            k4_5$value,
+                                            k_all$value),2)
+        )
+
+```
+
+The table below presents the two measures across the pairs of LIDD coders. With five LIDD coders, we have 10 possible pairwise comparisons. The Kappa value in the last row is the measure of intercoder reliability among the 5 LIDD coders, which at `.29` is rather poor.
+
+```{r}
+
+liddCoding %>% 
+  mutate(`Agreement %`=round(`Agreement %`,1)) %>% 
+  arrange(-`Kappa (intercoder reliability)`) %>% 
+  kable(format = "html") %>%
+  kable_styling(bootstrap_options = "striped",full_width = F,
+                position = "left")
+  
+```
+
+
+Below we check reliability by removing one coder at each iteration. Instead of five coders there are now four coders. Removing any coder is likely to boost Reliability. Below we can see the combination (in the first row) that yields the highest reliability, coders 1,2,4,5. 
+
+
+```{r}
+c2345=kappam.fleiss(cbind(dfw$coder2,dfw$coder3,dfw$coder4,dfw$coder5))
+c1345=kappam.fleiss(cbind(dfw$coder1,dfw$coder3,dfw$coder4,dfw$coder5))
+c1245=kappam.fleiss(cbind(dfw$coder1,dfw$coder2,dfw$coder4,dfw$coder5))
+c1235=kappam.fleiss(cbind(dfw$coder1,dfw$coder2,dfw$coder3,dfw$coder5))
+c1234=kappam.fleiss(cbind(dfw$coder1,dfw$coder2,dfw$coder3,dfw$coder4))
+
+
+liddOneOut=tibble(
+  `LIDD coder pair`=c("c2345",
+                      "c1345",
+                      "c1245",
+                      "c1235",
+                      "c1234"),
+       `Kappa (intercoder reliability)`=round(c(c2345$value,
+                                                c1345$value,
+                                                c1245$value,
+                                                c1235$value,
+                                                c1234$value),2)
+  )
+
+
+liddOneOut %>% 
+  arrange(-`Kappa (intercoder reliability)`) %>% 
+  kable(format = "html") %>%
+  kable_styling(bootstrap_options = "striped",full_width = F,
+                position = "left")
+
+
+
+```
+
+
+## Exploring differences among LIDD coders across items
+
+### On which items do the 5 LIDD coders Agree?
+
+LIDD coders were in full agreement for half the sample, 15 referendum topics. These can be seen in the table below:
+
+```{r}
+
+dfw$filt1=apply(dfw[lidd],1,function(x) length(names(table(x))))
+
+dfw %>% 
+  filter(filt1==1) %>% 
+  rename(Code=coder1) %>% 
+  select(id,Code,c2d_title) %>% 
+  kable(format = "html") %>%
+  kable_styling(bootstrap_options = "striped",full_width = F,
+                position = "left")
+
+```
+
+There were six different categories assigned to the agreement sample, with *Interior Policies* and *Economy* being the most popular. However, there does not seem to be a noticeable pattern explaining agreement. 
+
+### On which items do the 5 LIDD coders Disagree?
+
+LIDD coders were in disagreement for half the sample, 15 referendum topics. These can be seen in the table below, where the N_Codes refers to the number of distinct codings assigned to the referendum. For the first five rows in the table, 3 different codes were assigned to the referendum   
+
+```{r}
+dfw %>% 
+  filter(filt1>1) %>% 
+  rename(N_Codes=filt1) %>% 
+  select(id,N_Codes,c2d_title) %>% 
+  arrange(-N_Codes) %>% 
+  kable(format = "html") %>%
+  kable_styling(bootstrap_options = "striped",full_width = F,
+                position = "left")
+
+```
+
+To get a better handle on the discrepancies it is easier to visualise the differences.
+
+
+## Plotting divergent LIDD codes
+
+
+### Items generating 3 divergent LIDD codes
+```{r,fig.width=8,fig.height=3.5}
+# Plot 265
+t1=df %>% 
+  filter(id=="265") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="265") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 270
+t1=df %>% 
+  filter(id=="270") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="270") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 310
+t1=df %>% 
+  filter(id=="310") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="310") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 360
+t1=df %>% 
+  filter(id=="360") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="360") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 432
+t1=df %>% 
+  filter(id=="432") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="432") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+### Items generating 2 divergent LIDD codes
+
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 318
+t1=df %>% 
+  filter(id=="318") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="318") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 321
+t1=df %>% 
+  filter(id=="321") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="321") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 359
+t1=df %>% 
+  filter(id=="359") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="359") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 375
+t1=df %>% 
+  filter(id=="375") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="375") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 398
+t1=df %>% 
+  filter(id=="398") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="398") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 438
+t1=df %>% 
+  filter(id=="438") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="438") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 452
+t1=df %>% 
+  filter(id=="452") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="452") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 466
+t1=df %>% 
+  filter(id=="466") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="466") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 481
+t1=df %>% 
+  filter(id=="481") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="481") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+```{r,fig.width=8,fig.height=3.5}
+# Plot 518
+t1=df %>% 
+  filter(id=="518") %>% 
+  distinct(c2d_title) %>% 
+  pull(c2d_title)
+
+df %>% 
+  filter(id=="518") %>% 
+  count(Coder,Code) %>% 
+  ggbarplot("Code", "n",
+            fill = "Coder", color = "Coder",
+            palette = "jco") +
+  ggplot2::labs(subtitle = t1) + 
+  xlab("") +
+  ylab("Count") +
+  scale_y_continuous(breaks = integer_breaks())
+
+```
+
+
+### Preliminary note on the definitions
+
+These are comments on the definitions ... for further discussion.
+```{r, warning=FALSE}
+definitions2 <- read_csv("definitions2.csv")
+
+definitions2 %>% 
+  kable(format = "html") %>%
+  kable_styling(bootstrap_options = "striped",full_width = F,
+                position = "left")
+
+```
+
