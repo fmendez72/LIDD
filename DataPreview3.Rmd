@@ -1,19 +1,25 @@
 ---
-title: ""
+title: "Rejection analysis"
 output: html_document
 ---
+<br/><br/>
 
-# Overall conceptualisation
+Welcome to the rejection analysis web page. We will house the ongoing analysis and summaries on this webpage. It will be updated accordingly.
+<br/><br/>
+
+## Overall conceptualisation
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<br/><br/>
 
 <a href = "https://fmendez72.github.io/lidd/">
 ![](images/rejection_figure.png)
-
 <br/><br/>
 
-# Key hypotheses
+
+## Core hypotheses
 1. Lorem ipsum dolor sit amet  
 2. Consectetur adipiscing elit. 
 3. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
 4. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 <br/><br/>
