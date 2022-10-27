@@ -8,4 +8,6 @@ navbar:
       href: DataPreview.html
     - text: "Data Explore"
       href: DataPreview2.html
+    - text: "Rejection Analysis"
+      href: DataPreview3.html
 output_dir: "docs"
