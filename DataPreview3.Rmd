@@ -17,6 +17,8 @@ Follow these links to access the Country reports
 
 3. Rejective initiatives <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">[access reports]</a>
 
+<br/><br/>
+
 ## Overall conceptualisation
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 <br/><br/>
