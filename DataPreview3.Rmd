@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br/><br/>
 
 <a href = "https://fmendez72.github.io/lidd/">
-![](images/rejection_figure.png){width=50%}</a>
+![](images/rejection_figure.png){width=60%}</a>
 <br/><br/>
 
 
