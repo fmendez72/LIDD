@@ -3,4 +3,17 @@ title: ""
 output: html_document
 ---
 
-<iframe width="1000" height="800" src="https://datastudio.google.com/embed/reporting/15a5416f-0da3-484c-b1a3-7b0c472cbba2/page/tm9WC" frameborder="0" allowfullscreen></iframe>
+# Overall conceptualisation
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+<a href = "https://fmendez72.github.io/lidd/">
+![](images/rejection_figure.png)
+
+<br/><br/>
+
+# Key hypotheses
+1. Lorem ipsum dolor sit amet  
+2. Consectetur adipiscing elit. 
+3. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+4. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<br/><br/>
