@@ -2,7 +2,6 @@
 title: "Rejection analysis"
 output: html_document
 ---
-<br/><br/>
 
 Welcome to the rejection analysis web page. We will house the ongoing analysis and summaries on this webpage. It will be updated accordingly.
 <br/><br/>
