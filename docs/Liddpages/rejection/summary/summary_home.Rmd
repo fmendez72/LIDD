@@ -1,0 +1,18 @@
+---
+title: "Summaries [<img width=\"150px\" src=\"https://fmendez72.github.io/lidd/images/lidd2.png\" style=\"float: right;\"/>](https://fmendez72.github.io/lidd/index.html)"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+## Links
+
+This section will contain the summaries per instrument.
+
+1. Agenda initiatives
+2. Proactive initiatives
+3. Rejective initiatives
+
+
+

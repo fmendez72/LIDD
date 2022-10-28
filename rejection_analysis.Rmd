@@ -13,8 +13,8 @@ This section includes information on the overall conceptualisation and the taxon
 <br/><br/>
 
 
-## Country Reports
-Follow these links to access the Country reports
+### Country Reports
+Follow these links to access the different types of Country reports
 
 ##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/agenda_home.html" target="_blank">Agenda Initiatives</a>
 
@@ -22,12 +22,12 @@ Follow these links to access the Country reports
 ##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/rejective/rejective_home.html" target="_blank">Rejective initiatives</a>
 <br/><br/>
 
-### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/concept/concept_home.html" target="_blank">Summaries</a>
+### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/concept/summary_home.html" target="_blank">Summaries</a>
 This section stores the summaries of the analysis
 <br/><br/>
 
 
-## Resources and Links
+### Resources and Links
 
 1. Here is an example of a link to a webpage of our own <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">[see link]</a>
 
