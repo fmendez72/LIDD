@@ -1,9 +1,12 @@
 ---
-title: "Conceptualisation and Taxonomy"
+title: ""
 output: html_document
 editor_options: 
   chunk_output_type: console
 ---
+<img align="right" width="120" height="120" href="https://fmendez72.github.io/lidd" src="https://fmendez72.github.io/lidd/images/lidd2.png">
+
+# Conceptualisation and Taxonomy
 
 ## Overall conceptualisation
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
