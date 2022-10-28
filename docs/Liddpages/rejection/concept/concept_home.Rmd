@@ -5,7 +5,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-[<img align="right" alt="Go to homepage" width="150px" src="https://fmendez72.github.io/lidd/images/lidd2.png" />](https://fmendez72.github.io/lidd)
+[<img align="right" alt="Go to homepage" width="150px" src="https://fmendez72.github.io/lidd/images/lidd2.png" />](https://fmendez72.github.io/lidd/index.html)
 
 # Conceptualisation and Taxonomy
 
