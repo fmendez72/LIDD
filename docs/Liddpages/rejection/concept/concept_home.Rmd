@@ -10,7 +10,7 @@ editor_options:
 # Conceptualisation and Taxonomy
 
 ## Overall conceptualisation
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Sed do eiusmod tempor incididunt, ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ##### Figure: Example of an Agenda Initiative model
 <img src="https://fmendez72.github.io/lidd/images/rejection_figure.png" width=75% height=75%>
