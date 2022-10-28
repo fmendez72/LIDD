@@ -1,0 +1,30 @@
+---
+title: "Proactive initiatives"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+The Country Reports are listed according to the two main routes:
+
+##### 1. Pre-signature admissibility test route
+
+##### 2. Post-signature admissibility test route
+
+
+The only difference between the two is that for the `Pre-Signature` cases we include an extra table of results for the `Admissibility rates` of initiatives that passed the signature threshold.
+
+
+## Pre-signature admissibility cases
+
+#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/spain.html" target="_blank">Country 2</a>
+
+#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/spain.html" target="_blank">Country 2</a>
+
+
+## Post-signature admissibility cases
+
+#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/spain.html" target="_blank">Country 1</a>
+
+#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/spain.html" target="_blank">Country 2</a>
+

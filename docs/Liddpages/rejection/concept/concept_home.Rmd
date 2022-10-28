@@ -1,0 +1,27 @@
+---
+title: "Conceptualisation and Taxonomy"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+## Overall conceptualisation
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+##### Figure: Example of an Agenda Initiative model
+<img src="https://fmendez72.github.io/lidd/images/rejection_figure.png" width=75% height=75%>
+<br/><br/>
+
+
+## Taxonomy of admissibility models
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<br/><br/>
+
+## Core research questions
+1. Lorem ipsum dolor sit amet  
+2. Consectetur adipiscing elit. 
+3. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+<br/><br/>
+
+
+

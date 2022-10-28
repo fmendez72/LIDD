@@ -3,35 +3,34 @@ title: "Rejection analysis"
 output: html_document
 ---
 
-Welcome to the rejection analysis web page. We will house the ongoing analysis and summaries on this webpage.
+Welcome to the rejection analysis web page. This page will house the ongoing data collection efforts and analyses. 
 
-This webpage will be updated as the analysis proceeds.
+The webpage will be updated as the analysis proceeds.
 <br/><br/>
+
+## <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/concept/concept_home.html" target="_blank">Conceptualisation & Taxonomy</a>
+This section includes information on the overall conceptualisation and the taxonomy of admissibility test models 
+<br/><br/>
+
 
 ## Country Reports
 Follow these links to access the Country reports
 
-1. Agenda initiatives <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">[access reports]</a>
+##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda.html" target="_blank">Agenda Initiatives</a>
 
-2. Proactive initiatives <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">[access reports]</a>   
+##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/proactive.html" target="_blank">Proactive initiatives</a>   
 
-3. Rejective initiatives <a href="https://fmendez72.github.io/lidd/Liddpages/ConceptualMap.html" target="_blank">[access reports]</a>
+##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/rejective.html" target="_blank">Rejective initiatives</a>
 <br/><br/>
 
-## Overall conceptualisation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/rejective.html" target="_blank">Conceptualisation & Taxonomy</a>
+This section includes information on the overall conceptualisation and the taxonomy of admissibility test models 
 <br/><br/>
 
-<a href = "https://fmendez72.github.io/lidd/">
-![](images/rejection_figure.png){width=60%}</a>
+## <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/concept/concept_home.html" target="_blank">Summaries</a>
+This section stores the summaries of the analysis
 <br/><br/>
 
-## Core hypotheses
-1. Lorem ipsum dolor sit amet  
-2. Consectetur adipiscing elit. 
-3. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
-4. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-<br/><br/>
 
 ## Resources and Links
 
