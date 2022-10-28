@@ -9,5 +9,5 @@ navbar:
     - text: "Data Explore"
       href: DataPreview2.html
     - text: "Rejection Analysis"
-      href: DataPreview3.html
+      href: rejection_analysis.html
 output_dir: "docs"

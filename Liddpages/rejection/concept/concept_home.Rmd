@@ -1,13 +1,10 @@
 ---
-title: "&emsp;"
+title: "Conceptualisation and Taxonomy [<img width=\"150px\" src=\"https://fmendez72.github.io/lidd/images/lidd2.png\" style=\"float: right;\"/>](https://fmendez72.github.io/lidd/index.html)"
 output: html_document
 editor_options: 
   chunk_output_type: console
 ---
 
-[<img align="right" alt="Go to homepage" width="150px" src="https://fmendez72.github.io/lidd/images/lidd2.png" />](https://fmendez72.github.io/lidd/index.html)
-
-# Conceptualisation and Taxonomy
 
 ## Overall conceptualisation
 Sed do eiusmod tempor incididunt, ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
