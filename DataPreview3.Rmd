@@ -16,9 +16,9 @@ This section includes information on the overall conceptualisation and the taxon
 ## Country Reports
 Follow these links to access the Country reports
 
-##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda.html" target="_blank">Agenda Initiatives</a>
+##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda_home.html" target="_blank">Agenda Initiatives</a>
 
-##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/proactive.html" target="_blank">Proactive initiatives</a>   
+##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/proactive_home.html" target="_blank">Proactive initiatives</a>   
 ##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/rejective.html" target="_blank">Rejective initiatives</a>
 <br/><br/>
 
