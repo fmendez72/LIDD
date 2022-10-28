@@ -4,7 +4,7 @@ output: html_document
 editor_options: 
   chunk_output_type: console
 ---
-<img align="right" width="120" height="120" href="https://fmendez72.github.io/lidd" src="https://fmendez72.github.io/lidd/images/lidd2.png">
+<img align="right" width="120" height="120" src="https://fmendez72.github.io/lidd/images/lidd2.png">
 
 # Conceptualisation and Taxonomy
 
