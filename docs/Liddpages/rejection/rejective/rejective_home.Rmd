@@ -1,0 +1,12 @@
+---
+title: "Rejective Initiatives [<img width=\"150px\" src=\"https://fmendez72.github.io/lidd/images/lidd2.png\" style=\"float: right;\"/>](https://fmendez72.github.io/lidd/index.html)"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+#### Notes
+
+For this type of instrument we do not yet have a template. It may be merged with the proactive -to decide 
+

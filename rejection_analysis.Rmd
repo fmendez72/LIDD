@@ -8,10 +8,9 @@ Welcome to the rejection analysis web page. This section of the website will hou
 The webpage will be updated as the analysis proceeds.
 <br/><br/>
 
-### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/concept/concept_home.html" target="_blank">Conceptualisation & Taxonomy</a>
-This section includes information on the overall conceptualisation and the taxonomy of admissibility test models 
+### Conceptualisation & Taxonomy
+<a href="https://fmendez72.github.io/lidd/Liddpages/rejection/concept/concept_home.html" target="_blank">This section </a>includes information on the overall conceptualisation and the taxonomy of admissibility test models 
 <br/><br/>
-
 
 ### Country Reports
 Follow these links to access the different types of Country reports
@@ -20,12 +19,11 @@ Follow these links to access the different types of Country reports
 
 ##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/proactive/proactive_home.html" target="_blank">Proactive initiatives</a>   
 ##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/rejective/rejective_home.html" target="_blank">Rejective initiatives</a>
+<br/>
 
-
-### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/concept/summary_home.html" target="_blank">Summaries</a>
-This section stores the summaries of the analysis
+### Summaries
+<a href="https://fmendez72.github.io/lidd/Liddpages/rejection/summary/summary_home.html" target="_blank">This section </a> stores the summaries of the analysis
 <br/><br/>
-
 
 ### Resources and Links
 

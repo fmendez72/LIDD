@@ -26,7 +26,9 @@ The only difference between the two is that for the `Pre-Signature` cases we inc
 
 ## Post-signature admissibility cases
 
-#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/spain.html" target="_blank">Country 1</a>
+#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/estonia.html" target="_blank">Template</a>
 
-#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/spain.html" target="_blank">Country 2</a>
+#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/estonia.html" target="_blank">Country 1</a>
+
+#### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/agenda/estonia.html" target="_blank">Country 2</a>
 
