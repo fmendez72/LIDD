@@ -1,10 +1,11 @@
 ---
-title: ""
+title: " "
 output: html_document
 editor_options: 
   chunk_output_type: console
 ---
-<img align="right" width="120" height="120" src="https://fmendez72.github.io/lidd/images/lidd2.png">
+
+[<img align="right" alt="Go to homepage" width="100px" src="https://fmendez72.github.io/lidd/images/lidd2.png" />](https://fmendez72.github.io/lidd/images/lidd2.png)
 
 # Conceptualisation and Taxonomy
 
