@@ -20,7 +20,7 @@ Follow these links to access the different types of Country reports
 
 ##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/proactive/proactive_home.html" target="_blank">Proactive initiatives</a>   
 ##### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/rejective/rejective_home.html" target="_blank">Rejective initiatives</a>
-<br/><br/>
+
 
 ### <a href="https://fmendez72.github.io/lidd/Liddpages/rejection/concept/summary_home.html" target="_blank">Summaries</a>
 This section stores the summaries of the analysis
