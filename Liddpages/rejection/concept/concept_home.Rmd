@@ -18,7 +18,7 @@ library(kableExtra)
 
 ## Overall conceptualisation
 
->This image is more of a placeholder at this stage
+>This image is more of a placeholder at this stage.
 
 ##### Figure: Example of a generic Initiative model
 <img src="https://fmendez72.github.io/lidd/images/rejection_figure2.png" width=75% height=75%>
