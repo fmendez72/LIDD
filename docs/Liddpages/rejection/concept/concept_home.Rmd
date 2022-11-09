@@ -18,10 +18,10 @@ library(kableExtra)
 
 ## Overall conceptualisation
 
->This image can be mostly ignored it is more of a placeholder at this stage.
+>This image is more of a placeholder at this stage.
 
-##### Figure: Example of an Agenda Initiative model
-<img src="https://fmendez72.github.io/lidd/images/rejection_figure.png" width=75% height=75%>
+##### Figure: Example of a generic Initiative model
+<img src="https://fmendez72.github.io/lidd/images/rejection_figure2.png" width=75% height=75%>
 <br/><br/>
 
 
@@ -30,7 +30,7 @@ library(kableExtra)
 > FM comment: I suspect we want (i) a general taxonomy for a given instrument and (ii) a narrow typology for the different admissibility models. In this framework (ii) is a subset of features belonging to (i).
 
 ##### Figure: Relationship between features
-<img src="https://fmendez72.github.io/lidd/images/venn_model2.png" width=35% height=35%>
+<img src="https://fmendez72.github.io/lidd/images/venn_model2.png" width=65% height=65%>
 
 <br/><br/>
 
