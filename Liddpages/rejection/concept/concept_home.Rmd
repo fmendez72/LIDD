@@ -27,10 +27,10 @@ library(kableExtra)
 
 ## Taxonomy of instruments and admissibility models
 
-> FM comment: I suspect we want (i) a general taxonomy for a given instrument and (ii) a narrow typology for the different admissibility models. In this framework (ii) is a subset of features belonging to (i)
+> FM comment: I suspect we want (i) a general taxonomy for a given instrument and (ii) a narrow typology for the different admissibility models. In this framework (ii) is a subset of features belonging to (i).
 
 ##### Figure: Relationship between features
-<img src="https://fmendez72.github.io/lidd/images/venn_model.png" width=45% height=45%>
+<img src="https://fmendez72.github.io/lidd/images/venn_model2.png" width=35% height=35%>
 
 <br/><br/>
 
@@ -40,11 +40,13 @@ library(kableExtra)
 
 ##### Figure: Example of a QCA model
 
-<img src="https://fmendez72.github.io/lidd/images/qca_model.png" width=75% height=7=75%>
+<img src="https://fmendez72.github.io/lidd/images/qca_model.png" width=75% height=75%>
 
 <br/><br/>
 
->In this version some of the variables may be the same as above (we need to discuss labels). FM's preferred approach would be to integrate all instruments into the same QCA model (ie Agenda, Proactive and Reactive). 
+>In this version some of the variables may be the same as above (mostly a question of labeling). FM's preferred approach would be to integrate all instruments (ie Agenda, Proactive and Reactive) into the same QCA model following a careful calibration of dimensions. 
+
+##### Table: QCA expanded list of conditions and outcomes
 
 ```{r,echo=FALSE}
 m1=tibble::tribble(
